@@ -7,6 +7,8 @@
 //
 
 #import "AppDelegate.h"
+#import "AVVListaApuestasTableViewController.h"
+#import "AVVApuestaNuevaControllerViewController.h"
 
 @interface AppDelegate ()
 
@@ -17,6 +19,18 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
+    self.window = [[UIWindow alloc] initWithFrame:[[UIScreen mainScreen] bounds]];
+    
+    AVVListaApuestasTableViewController *apuestaList = [[AVVListaApuestasTableViewController alloc] init];
+    apuestaList.title = @"Apuestas";
+    
+    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:apuestaList];
+    
+    
+    self.window.rootViewController = nav;
+    
+    
+    [self.window makeKeyAndVisible];
     return YES;
 }
 

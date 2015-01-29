@@ -15,6 +15,11 @@
 		754253431A73935A00F372E1 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 754253421A73935A00F372E1 /* Images.xcassets */; };
 		754253461A73935A00F372E1 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754253441A73935A00F372E1 /* LaunchScreen.xib */; };
 		754253521A73935A00F372E1 /* iApuestasTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 754253511A73935A00F372E1 /* iApuestasTests.m */; };
+		7542535E1A7395B800F372E1 /* AVVListaApuestasTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7542535C1A7395B800F372E1 /* AVVListaApuestasTableViewController.m */; };
+		7542535F1A7395B800F372E1 /* AVVListaApuestasTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7542535D1A7395B800F372E1 /* AVVListaApuestasTableViewController.xib */; };
+		754253631A7397C900F372E1 /* AVVApuestaNuevaControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 754253611A7397C900F372E1 /* AVVApuestaNuevaControllerViewController.m */; };
+		754253641A7397C900F372E1 /* AVVApuestaNuevaControllerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 754253621A7397C900F372E1 /* AVVApuestaNuevaControllerViewController.xib */; };
+		E7E069011A799FFE00423C5C /* AVVApuestaParticipante.m in Sources */ = {isa = PBXBuildFile; fileRef = E7E069001A799FFE00423C5C /* AVVApuestaParticipante.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +47,14 @@
 		7542534B1A73935A00F372E1 /* iApuestasTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iApuestasTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		754253501A73935A00F372E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		754253511A73935A00F372E1 /* iApuestasTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iApuestasTests.m; sourceTree = "<group>"; };
+		7542535B1A7395B800F372E1 /* AVVListaApuestasTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVVListaApuestasTableViewController.h; sourceTree = "<group>"; };
+		7542535C1A7395B800F372E1 /* AVVListaApuestasTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVVListaApuestasTableViewController.m; sourceTree = "<group>"; };
+		7542535D1A7395B800F372E1 /* AVVListaApuestasTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVVListaApuestasTableViewController.xib; sourceTree = "<group>"; };
+		754253601A7397C900F372E1 /* AVVApuestaNuevaControllerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVVApuestaNuevaControllerViewController.h; sourceTree = "<group>"; };
+		754253611A7397C900F372E1 /* AVVApuestaNuevaControllerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVVApuestaNuevaControllerViewController.m; sourceTree = "<group>"; };
+		754253621A7397C900F372E1 /* AVVApuestaNuevaControllerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = AVVApuestaNuevaControllerViewController.xib; sourceTree = "<group>"; };
+		E7E068FF1A799FFE00423C5C /* AVVApuestaParticipante.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AVVApuestaParticipante.h; sourceTree = "<group>"; };
+		E7E069001A799FFE00423C5C /* AVVApuestaParticipante.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AVVApuestaParticipante.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,7 +104,15 @@
 				754253421A73935A00F372E1 /* Images.xcassets */,
 				754253441A73935A00F372E1 /* LaunchScreen.xib */,
 				754253391A73935A00F372E1 /* iApuestas.xcdatamodeld */,
+				E7E068FF1A799FFE00423C5C /* AVVApuestaParticipante.h */,
+				E7E069001A799FFE00423C5C /* AVVApuestaParticipante.m */,
 				754253321A73935A00F372E1 /* Supporting Files */,
+				7542535B1A7395B800F372E1 /* AVVListaApuestasTableViewController.h */,
+				7542535C1A7395B800F372E1 /* AVVListaApuestasTableViewController.m */,
+				7542535D1A7395B800F372E1 /* AVVListaApuestasTableViewController.xib */,
+				754253601A7397C900F372E1 /* AVVApuestaNuevaControllerViewController.h */,
+				754253611A7397C900F372E1 /* AVVApuestaNuevaControllerViewController.m */,
+				754253621A7397C900F372E1 /* AVVApuestaNuevaControllerViewController.xib */,
 			);
 			path = iApuestas;
 			sourceTree = "<group>";
@@ -205,6 +226,8 @@
 				754253411A73935A00F372E1 /* Main.storyboard in Resources */,
 				754253461A73935A00F372E1 /* LaunchScreen.xib in Resources */,
 				754253431A73935A00F372E1 /* Images.xcassets in Resources */,
+				7542535F1A7395B800F372E1 /* AVVListaApuestasTableViewController.xib in Resources */,
+				754253641A7397C900F372E1 /* AVVApuestaNuevaControllerViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,9 +245,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				754253631A7397C900F372E1 /* AVVApuestaNuevaControllerViewController.m in Sources */,
 				754253381A73935A00F372E1 /* AppDelegate.m in Sources */,
 				754253351A73935A00F372E1 /* main.m in Sources */,
+				E7E069011A799FFE00423C5C /* AVVApuestaParticipante.m in Sources */,
 				7542533E1A73935A00F372E1 /* ViewController.m in Sources */,
+				7542535E1A7395B800F372E1 /* AVVListaApuestasTableViewController.m in Sources */,
 				7542533B1A73935A00F372E1 /* iApuestas.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -418,6 +444,7 @@
 				754253571A73935A00F372E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		754253581A73935A00F372E1 /* Build configuration list for PBXNativeTarget "iApuestasTests" */ = {
 			isa = XCConfigurationList;
@@ -426,6 +453,7 @@
 				7542535A1A73935A00F372E1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
